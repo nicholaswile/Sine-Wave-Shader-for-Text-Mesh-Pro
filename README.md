@@ -32,6 +32,9 @@ Then create some TMP text in your scene, find the shader component in the inspec
 
 You may add the C# scripts to any active object in your Unity scene. I recommend creating an empty object to place the scripts on. Don't forget to reference the material from the TMP text in your scene in the insepctor for the C# script. It may be helpful to include two inspector windows for this.
 
+## If you use...
+Please fork this repo and show me what you make! I'd love to see somebody put this to use in a project!
+
 ## Credits
 <ul>
   <li><a href="https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/license/LICENSE.html">TextMesh Pro</a> copyright © 2022 Unity Technologies ApS</li>
