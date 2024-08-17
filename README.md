@@ -31,3 +31,8 @@ You must already have TextMesh Pro downloaded into your Unity project, and there
 Then create some TMP text in your scene, find the shader component in the inspector, and select TextMesh Pro > one of the custom options. I recommend my Custom_TMP_SDF_SineWave shader, but I also included an inverse sine wave shader as well.
 
 You may add the C# scripts to any active object in your Unity scene. I recommend creating an empty object to place the scripts on. Don't forget to reference the material from the TMP text in your scene in the insepctor for the C# script. It may be helpful to include two inspector windows for this.
+
+## Credits
+<ul>
+  <li><a href="https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/license/LICENSE.html">TextMesh Pro</a> copyright © 2022 Unity Technologies ApS</li>
+</ul>
