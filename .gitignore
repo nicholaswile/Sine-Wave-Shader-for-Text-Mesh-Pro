@@ -1,0 +1,12 @@
+/Materials
+/Scenes
+*.meta
+/TextMesh Pro/Documentation
+/TextMesh Pro/Examples & Extras
+/TextMesh Pro/Fonts
+/TextMesh Pro/Resources
+/TextMesh Pro/Sprites
+/TextMesh Pro/Shaders/*
+!/TextMesh Pro/Shaders/*Custom*
+/TextMesh Pro/Shaders/*.meta
+/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
