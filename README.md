@@ -2,7 +2,7 @@
 
 <img src="images/SineWaveShader.gif">
 
-Finally! A custom HLSL shader enabling sine wave animation for Unity UI text!
+Finally! A custom HLSL shader enabling sine wave animation for Unity UI text! Also includes a custom shader GUI and C# scripts for editing.
 
 ## What is this? Why is this?
 This is a custom text mesh pro (TMP) vertex shader using HLSL that supports sine wave animation with customizable properties including amplitude, frequency, and animation speed. I made this shader to address the limitations of Unity’s default shaders that are incompatible with Unity UI text / TMP. 
