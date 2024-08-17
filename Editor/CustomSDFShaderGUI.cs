@@ -11,10 +11,13 @@ namespace NikoNiko
             // Find custom properties
             MaterialProperty amplitude = FindProperty("_Amplitude", properties);
             MaterialProperty frequency = FindProperty("_Frequency", properties);
+            MaterialProperty speed = FindProperty("_Speed", properties);
+
 
             // Draw custom properties
             materialEditor.ShaderProperty(amplitude, "Amplitude");
             materialEditor.ShaderProperty(frequency, "Frequency");
+            materialEditor.ShaderProperty(speed, "Speed");
         }
     }
 }

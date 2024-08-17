@@ -25,6 +25,8 @@ Alternatively, if you want to access the shader properties from a C# script, I i
 
 Basically, you have options. If you want to edit using the shader material, you can do that. If you'd rather edit using the C# script, you can do that. However, if you edit one, you can't edit the other. If both are placed in your scene, the "Lock" boolean on the C# script determines whether you want to use the C# script (true) or the shader (false). If you want to include more animation effects like in the demo gif at the top, attach the animate script as well. 
 
+For the animation script, the Bounce boolean variable determines whether the animation loops seamlessly or plays once. The number of frames determines how long it takes for the animation to play. Increasing the number of frames makes the animation play slower. I'd like to edit it so that the timing is consistent regardless of frame rate.
+
 ## How to use
 You must already have TextMesh Pro downloaded into your Unity project, and there should be a TextMesh Pro folder in your Assets folder. You may copy the Editor and Scripts folder from this repo into your Assets folder, and copy the shader files in this repo's TextMesh Pro folder into your project's TextMesh Pro folder. The custom TMP shaders must remain in the TextMesh Pro folder, and the custom shader GUI C# file must remain in the Editor folder. 
 
